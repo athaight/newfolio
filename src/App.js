@@ -1,15 +1,16 @@
+import Body from './components/Body';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import About from './components/About';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-bgGray scroll-smooth">
       
         <Navbar/>
-        <About/>
-        <Footer/>
+        <Body/>
+       
+
     </div>
   );
 }
