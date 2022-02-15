@@ -17,6 +17,9 @@ module.exports = {
       },
       scale: {
         '175': '1.75',
+      },
+      fontSize: {
+        xxxl: ['72px', '80px']
       }
     },
   },
