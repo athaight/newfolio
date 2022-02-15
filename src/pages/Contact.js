@@ -1,8 +1,10 @@
 import MeBig from "../assets/MeBig.png";
 import Logo from "../assets/LogoSmall.jpg";
 import { Fade } from "react-reveal";
+import React from "react";
 
-function Contact() {
+class Contact extends React.Component {
+  render() {
   return (
     <>
         <Fade>
@@ -64,13 +66,13 @@ function Contact() {
               </div>
               <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <a href="mailto:haightdevelopment@gmail.com" class="text-amber-500">haightdevelopment@gmail.com</a>
-                <p class="leading-normal my-5">
+                
+              </div>
+                <p class="leading-normal my-5 mx-auto text-gray-200">
                   Online from
                   <br />
                   Phoenix, AZ
                 </p>
-                
-              </div>
             </div>
           </div>
         </div>
@@ -79,5 +81,5 @@ function Contact() {
     </>
   );
 }
-
+}
 export default Contact;

@@ -3,16 +3,16 @@ import biteSize from "../assets/LyndsBiteComp.png";
 import { Fade } from "react-reveal";
 
 
-function Work() {
+export const Work = () => {
   return (
     <div  className=" bg-bgGray pt-44 pb-44">
       <Fade delay={1000} ><section className="text-gray-600 body-font">
         <div id="work" className="container px-5 py-24 mx-auto bg-bgGrayLite rounded-xl">
           <div className="flex flex-wrap w-full mb-20  mt-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-200">
-                Bite Size Hygiene
-              </h1>
+              <p className="text-xxxl text-gray-300 ml-28">
+                Bite Size Hygiene |
+              </p>
             </div>
             <p className="lg:w-2/5 w-full leading-relaxed text-left text-gray-500 ">
               A landing page for my wife who's a Dental Hygienist and Brand
