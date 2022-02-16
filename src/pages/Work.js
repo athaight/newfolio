@@ -35,7 +35,7 @@ export const Work = () => {
             <div className="mx-auto p-4 ">
               <div className="p-6 rounded-lg">
                 <img
-                  className="h-96 rounded w-full mb-6"
+                  className="bite h-96 rounded w-full mb-6"
                   src={biteSize}
                   alt="content"
                 />

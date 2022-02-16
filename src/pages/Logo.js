@@ -3,7 +3,9 @@ import Vid from '../assets/video/meKev.mp4'
 import { Fade } from "react-reveal";
 
 function Logo(){
-   
+  var vid = document.getElementById("video");
+  vid.playbackRate = 0.75;
+  
     return(
           <Fade duration={4000}>
       <div className="w-full h-full flex" >
