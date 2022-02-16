@@ -3,6 +3,18 @@ background-color: #202020;
 scroll-behavior: smooth;
 }
 
+#video{
+position: fixed;
+z-index: 0;
+width: 100%;
+height: 100%;
+opacity: 80%;
+}
+
+#kev {
+z-index: 99;
+}
+
 .App {
   text-align: center;
   background-color: #202020;
@@ -49,4 +61,8 @@ scroll-behavior: smooth;
 .introName {
   text-align: left;
   font-size: 100px;
+}
+
+.nav-link .active {
+  font-weight: bold;
 }

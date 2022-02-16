@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 class Intro extends React.Component {
   render() {return (
     <>
-      <section class="container text-white body-font pt-20 bg-bgGray mx-auto">
+      <section class="container text-white body-font pt-20 pb-44 bg-bgGray mx-auto">
       <Fade duration={4000} class=" px-5 py-24 mx-auto justify-start">
         <div>
           <div class="flex flex-col mx-auto">
@@ -20,7 +20,7 @@ class Intro extends React.Component {
             <h1 class="text-left text-2xl font-thin title-font mt-10">
               Currently, I'm an apprentice in training for <span className="font-semibold ml-1 mr-1"> UX Design </span> at
               <div className="flex font-semibold hover:text-red-300">
-                <a href="">Interapt</a>
+                <a href="https://interapt.com/" rel="noopener noreferrer" target="_blank">Interapt</a>
                 <img
                   className="w-8 h-8 ml-2 object-scale-down"
                   src={Interapt}

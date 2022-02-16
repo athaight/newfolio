@@ -6,9 +6,9 @@ import React from "react";
 class Contact extends React.Component {
   render() {
   return (
-    <>
+    <div className=" pb-44 pt-12">
         <Fade>
-      <section id="contact" class="text-gray-600 body-font relative bg-bgGray pt-96">
+      <section id="contact" class="text-gray-600 body-font relative bg-bgGray pt-96 pb-44" >
           <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-200">
@@ -78,7 +78,7 @@ class Contact extends React.Component {
         </div>
       </section>
         </Fade>
-    </>
+    </div>
   );
 }
 }

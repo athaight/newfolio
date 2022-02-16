@@ -6,7 +6,7 @@ function About() {
 
     return(
         
-      <section  className="text-white body-font bg-bgGray pt-96">
+      <section  className="text-white body-font bg-bgGray">
   <Fade><div className="container px-5 py-24 mx-auto flex flex-col">
     <div id="about" className="lg:w-4/6 mx-auto">
       <div className="rounded-lg h-144 overflow-hidden">
@@ -35,7 +35,7 @@ function About() {
             <p className="leading-relaxed text-lg mb-4">🔥 When given a task I focus and get it done</p> 
 
           
-          <a href="https://www.linkedin.com/in/athaight/" className="text-amber-300 inline-flex items-center">LinkedIn
+          <a href="https://www.linkedin.com/in/athaight/" rel="noopener noreferrer" target="_blank" className="text-amber-300 inline-flex items-center">LinkedIn
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>

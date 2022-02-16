@@ -2,7 +2,7 @@ import Logo from "../assets/Logo.png"
 function Footer() {
   return (
     <>
-      <footer className="text-gray-600 body-font bg-bgGray">
+      <footer className="text-gray-600 body-font bg-bgGray relative bottom-0">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a  className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <div className="w-12 justify-center">
@@ -25,7 +25,7 @@ function Footer() {
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
            
-            <a href="https://www.instagram.com/skritkid/" class="ml-3 text-gray-500">
+            <a href="https://www.instagram.com/skritkid/" rel="noopener noreferrer" target="_blank" class="ml-3 text-gray-500">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -39,7 +39,7 @@ function Footer() {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/athaight/" className="ml-3 text-gray-500">
+            <a href="https://www.linkedin.com/in/athaight/" rel="noopener noreferrer" target="_blank" className="ml-3 text-gray-500">
               <svg
                 fill="currentColor"
                 stroke="currentColor"

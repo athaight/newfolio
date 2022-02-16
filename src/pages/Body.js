@@ -2,6 +2,7 @@ import Intro from '../components/Intro';
 import Work from './Work';
 
 
+
 function Body() {
   return (
     <div className="App bg-bgGray">
@@ -9,7 +10,7 @@ function Body() {
         
         <Intro/>
         <Work/>
-
+       
     </div>
   );
 }

@@ -1,11 +1,13 @@
 import handPic from "../assets/hand.png";
 import biteSize from "../assets/LyndsBiteComp.png";
+import Intro from "../components/Intro";
 import { Fade } from "react-reveal";
 
 
 export const Work = () => {
   return (
     <div  className=" bg-bgGray pt-44 pb-44">
+      <Intro/>
       <Fade delay={1000} ><section className="text-gray-600 body-font">
         <div id="work" className="container px-5 py-24 mx-auto bg-bgGrayLite rounded-xl">
           <div className="flex flex-wrap w-full mb-20  mt-20">
