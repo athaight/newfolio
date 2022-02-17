@@ -10,8 +10,8 @@ import Logo from './pages/Logo';
 
 function App() {
   return (
-    <div className="App bg-bgGray scroll-smooth">
-      
+    <div className="App bg-bgGray scroll-smooth h-full">
+     
       <Router>
 
        <Navbar/>

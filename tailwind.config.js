@@ -20,6 +20,12 @@ module.exports = {
       },
       fontSize: {
         xxxl: ['72px', '80px']
+      },
+      rotate: {
+        'half': "0.5deg"
+      },
+      scale: {
+        'bit': "1.01"
       }
     },
   },

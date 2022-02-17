@@ -1,8 +1,8 @@
 import Logo from "../assets/Logo.png"
 function Footer() {
   return (
-    <>
-      <footer className="text-gray-600 body-font bg-bgGray relative bottom-0">
+    <div className=" mx-auto relative bg-bgGray bottom-0">
+      <footer className="text-gray-600 body-font bg-bgGray ">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a  className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <div className="w-12 justify-center">
@@ -59,7 +59,7 @@ function Footer() {
           </span>
         </div>
       </footer>
-    </>
+    </div>
   );
 }
 

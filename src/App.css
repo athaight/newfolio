@@ -3,6 +3,8 @@ background-color: #202020;
 scroll-behavior: smooth;
 }
 
+html, body { height: 100% }
+
 #video{
 position: fixed;
 z-index: 0;
@@ -76,3 +78,46 @@ filter:drop-shadow(5px 0px 20px #050505);
 .nav-link:active {
   color: white;
 }
+
+.neonSkull {
+  width: 600px;
+  margin: auto;
+
+}
+
+.mePic {
+  transform-orgin: center center;
+  
+}
+
+.popSkull:hover {
+  filter: drop-shadow(0 0px 35px rgba(245, 39, 145, .9));
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.75);
+  opacity: 1;
+  z-index: 10;
+}
+
+.nasaSkull:hover {
+  filter: drop-shadow(0 0px 35px rgba(245, 121, 39, .9));
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.75);
+  opacity: 1;
+  z-index: 10;
+}
+
+.albumSkull:hover {
+  filter: drop-shadow(0 0px 35px rgba(39, 155, 245, 0.9));
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.75);
+  opacity: 1;
+  z-index: 10;
+}
+.saintSkull:hover {
+  filter: drop-shadow(0 0px 35px rgba(245, 219, 39, 0.9));
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.75);
+  opacity: 1;
+  z-index: 10;
+}
+

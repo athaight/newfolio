@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 class Intro extends React.Component {
   render() {return (
     <>
-      <section class="container text-white body-font pt-20 pb-44 bg-bgGray mx-auto">
+      <section class="container text-white body-font pt-20 pb-44 bg-bgGray mx-auto h-full">
       <Fade duration={4000} class=" px-5 py-24 mx-auto justify-start">
         <div>
           <div class="flex flex-col mx-auto">

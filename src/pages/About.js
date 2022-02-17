@@ -1,6 +1,7 @@
 import MeBig from "../assets/MeBig.png"
 import Logo from "../assets/Logo.png"
 import { Fade } from "react-reveal";
+import Tilt from 'react-parallax-tilt';
 
 function About() {
 
@@ -8,10 +9,15 @@ function About() {
         
       <section  className="text-white body-font bg-bgGray">
   <Fade><div className="container px-5 py-24 mx-auto flex flex-col">
-    <div id="about" className="lg:w-4/6 mx-auto">
-      <div className="rounded-lg h-144 overflow-hidden">
-        <img alt="content" className="object-cover object-center h-full w-full" src={MeBig}/>
+    <div id="about" className="lg:w-4/6 mx-auto ">
+      <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+    perspective={5000}
+    glareEnable={true}
+    glareMaxOpacity={0.35}
+    scale={1.01}><div className="mePic rounded-lg h-144 overflow-hidden ">
+        <img alt="content" className="object-cover object-center h-full w-full " src={MeBig}/>
       </div>
+      </Tilt>
       <div  className="flex flex-col sm:flex-row mt-10">
         <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
           <div className="w-20 h-20 rounded-full inline-flex items-center justify-center ">
