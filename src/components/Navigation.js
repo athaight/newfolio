@@ -12,7 +12,7 @@ function Navbar() {
           <NavLink exact to="/work" className="nav-link mr-5 hover:text-gray-500 cursor-pointer">Work</NavLink>
           <NavLink exact to="/artwork" className="nav-link mr-5 hover:text-gray-500 cursor-pointer">Artwork</NavLink>
           <NavLink exact to="/about" className="nav-link mr-5 hover:text-gray-500 cursor-pointer">About</NavLink>
-          <NavLink exact to="/contact" className="nav-link mr-5 hover:text-gray-500 cursor-pointer">Contact</NavLink>
+          <a href="mailto:haightdevelopment@gmail.com" className="nav-link mr-5 hover:text-gray-500 cursor-pointer">Contact</a>
         </nav>
         
       </div>

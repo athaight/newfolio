@@ -12,6 +12,7 @@ function About() {
     <div id="about" className="lg:w-4/6 mx-auto ">
       <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
     perspective={5000}
+    transitionSpeed={5000}
     glareEnable={true}
     glareMaxOpacity={0.35}
     scale={1.01}><div className="mePic rounded-lg h-144 overflow-hidden ">
