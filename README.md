@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Portfolio
+This project is a new portfolio showcasing my UX and UI skill development, and to help hone my Front End development skills. It has an introduction component that states a little about me, a work component that  
 
 ## Available Scripts
 
