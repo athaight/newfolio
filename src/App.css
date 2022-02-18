@@ -57,14 +57,11 @@ body {
 }
 
 .bite {
-  transition: all 0.5s ease-in-out;
+  transition: all 5s ease-in-out;
+ 
 }
 
-.bite:hover {
-  transform: rotate(0.01turn) scale(1.1);
-  transition: all 0.5s ease-in-out;
-  filter: drop-shadow(5px 0px 20px #050505);
-}
+
 
 .footer {
   bottom: 0;
@@ -117,4 +114,8 @@ body {
   transform: scale(1.75);
   opacity: 1;
   z-index: 10;
+}
+
+.works {
+height: 600px;
 }
