@@ -8,9 +8,8 @@ export const WorkingFlipDate = ({ value }) => {
 
   const [tickValue, setTickValue] = useState(value);
 
-  // Make the Tick instance and store it in the refs
   useEffect(() => {
-    const didInit = tick => {
+    const didInit = (tick) => {
       tickRef.current = tick;
     };
 
@@ -18,19 +17,17 @@ export const WorkingFlipDate = ({ value }) => {
     const tickValue = tickRef.current;
     Tick.DOM.create(currDiv, {
       value,
-      didInit
+      didInit,
     });
     return () => Tick.DOM.destroy(tickValue);
   }, [value]);
 
-  // Start the Tick.down process
   useEffect(() => {
     const counter = Tick.count.down(value, {
-      format: ["y", "M", "d", "h", "m", "s"]
+      format: ["y", "M", "d", "h", "m", "s"],
     });
 
-    // When the counter updates, update React's state value
-    counter.onupdate = function(value) {
+    counter.onupdate = function (value) {
       setTickValue(value);
     };
 
@@ -39,7 +36,6 @@ export const WorkingFlipDate = ({ value }) => {
     };
   }, [value]);
 
-  // When the tickValue is updated, update the Tick.DOM element
   useEffect(() => {
     if (tickRef.current) {
       tickRef.current.value = tickValue;

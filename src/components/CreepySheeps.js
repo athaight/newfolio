@@ -10,116 +10,163 @@ import sheeps9 from "../assets/sheep/image9.PNG";
 import sheeps10 from "../assets/sheep/image10.PNG";
 import sheeps11 from "../assets/sheep/image11.PNG";
 import sheeps12 from "../assets/sheep/image12.png";
-import sheeps13 from "../assets/sheep/image13.png";
-import NeonSheep from '../assets/sheep_neon.png'
-import Tilt from 'react-parallax-tilt';
+import NeonSheep from "../assets/sheep_neon.png";
+import Tilt from "react-parallax-tilt";
 
 function Sheeps() {
   return (
     <div className="h-full">
-        <div className="neonSkull pb-12"><img src={NeonSheep}/></div>
+      <div className="neonSkull pb-12">
+        <img src={NeonSheep} />
+      </div>
       <div class="container grid grid-cols-3 gap-2 mx-auto p-8 mb-44">
-          
-        <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl"  >
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps1} alt="image" /></Tilt>
+        <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps1} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps9} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps9} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps3} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps3} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps7} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps7} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps4} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps4} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps8} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps8} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps5} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps5} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps2} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps2} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps6} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps6} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps10} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps10} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps12} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps12} alt="image" />
+          </Tilt>
         </div>
         <div class="w-full rounded ease-in-out duration-300 hover:shadow-xl">
-          <Tilt className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
-    perspective={5000}
-    transitionSpeed={2000}
-    glareEnable={true}
-    glareMaxOpacity={0.35}
-    scale={1.01}><img src={sheeps11} alt="image" /></Tilt>
+          <Tilt
+            className="parallax-effect-glare-scale hover:shadow-2xl ease-in-out duration-500"
+            perspective={5000}
+            transitionSpeed={2000}
+            glareEnable={true}
+            glareMaxOpacity={0.35}
+            scale={1.01}
+          >
+            <img src={sheeps11} alt="image" />
+          </Tilt>
         </div>
       </div>
       <div className=""></div>
     </div>
-
   );
 }
 

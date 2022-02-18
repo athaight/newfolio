@@ -1,15 +1,17 @@
-import Logo from "../assets/Logo.png"
+import Logo from "../assets/Logo.png";
 function Footer() {
   return (
     <div className=" mx-auto relative bg-bgGray bottom-0">
       <footer className="text-gray-600 body-font bg-bgGray ">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a  className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <div className="w-12 justify-center">
-        <a href="#home" ><img className="mb-2 cursor-pointer" src={Logo} /></a>
-        </div>
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <div className="w-12 justify-center">
+              <a href="#home">
+                <img className="mb-2 cursor-pointer" src={Logo} />
+              </a>
+            </div>
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+
             <span className="text-gray-600 ml-3 text-xl">Andrew Haight</span>
           </a>
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
@@ -24,8 +26,12 @@ function Footer() {
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-           
-            <a href="https://www.instagram.com/skritkid/" rel="noopener noreferrer" target="_blank" class="ml-3 text-gray-500">
+            <a
+              href="https://www.instagram.com/skritkid/"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="ml-3 text-gray-500"
+            >
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -39,7 +45,12 @@ function Footer() {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/athaight/" rel="noopener noreferrer" target="_blank" className="ml-3 text-gray-500">
+            <a
+              href="https://www.linkedin.com/in/athaight/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="ml-3 text-gray-500"
+            >
               <svg
                 fill="currentColor"
                 stroke="currentColor"
