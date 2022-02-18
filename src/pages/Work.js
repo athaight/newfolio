@@ -4,11 +4,20 @@ import { Fade } from "react-reveal";
 import background from "../assets/hand.png";
 import SheepOutilne from "../assets/sheepOutline.png";
 import Tilt from "react-parallax-tilt";
+import { useState } from "react";
 
-export const Work = () => {
+function Work() {
+  
+  
+    const [scale, setScale] = useState(1.03);
+    
+   
+  
   return (
     <div className=" bg-bgGray pb-44 w-fit mx-auto">
-      <Fade delay={1000}>
+      {/* fade delay for each element */}
+      <Fade delay={500}>
+        {/* Bite Size section */}
         <Tilt
           tiltMaxAngleX={5}
           tiltMaxAngleY={5}
@@ -55,12 +64,6 @@ export const Work = () => {
               <div className="flex flex-wrap -m-4 ">
                 <div className="mx-auto p-4 ">
                   <div className="p-6 rounded-lg ">
-                    <img
-                      className="bite h-96 rounded w-full mb-6 "
-                      src={biteSize}
-                      alt="content"
-                    />
-
                     <h3 className="tracking-widest text-violet-400 text-xs font-medium title-font">
                       <a href="/">bitesizehygiene.com</a>
                     </h3>
@@ -71,16 +74,37 @@ export const Work = () => {
           </section>
         </Tilt>
 
+        {/* Bite Size COMPUTER */}
+        <div className="flex flex-row justify-end -mt-96 pb-12">
+          <Tilt
+            className="w-fit mr-12"
+            scale={scale} transitionSpeed={2500}
+            tiltMaxAngleX={5}
+            tiltMaxAngleY={24}
+            perspective={9000}
+            transitionSpeed={1500}
+            gyroscope={true}
+            glareEnable={!true}
+            glareMaxOpacity={0.1}
+            glareColor="purple"
+            glarePosition="all"
+          >
+            <img
+              className="bite h-96 rounded w-fit mb-6 "
+              src={biteSize}
+              alt="content"
+            />
+          </Tilt>
+        </div>
+
+        {/* Sheep section */}
+
         <Tilt
           tiltMaxAngleX={5}
           tiltMaxAngleY={5}
           perspective={9000}
           transitionSpeed={1500}
           gyroscope={true}
-          glareEnable={true}
-          glareMaxOpacity={0.01}
-          glareColor="lightblue"
-          glarePosition="all"
         >
           {" "}
           <section className="text-gray-600 body-font mt-12">
@@ -128,26 +152,28 @@ export const Work = () => {
             </div>
           </section>
         </Tilt>
+
+        {/* Sheep COMPUTER */}
         <div className="flex flex-row justify-end -mt-96 pb-12">
-        <Tilt className="w-fit mr-12"
-          tiltMaxAngleX={5}
-          tiltMaxAngleY={24}
-          perspective={9000}
-          transitionSpeed={1500}
-          gyroscope={true}
-          glareEnable={!true}
-          glareMaxOpacity={0.01}
-          glareColor="black"
-          glarePosition="all"
-        >
-          
+          <Tilt
+            className="w-fit mr-12"
+            scale={scale} transitionSpeed={2500}
+            tiltMaxAngleX={5}
+            tiltMaxAngleY={24}
+            perspective={9000}
+            transitionSpeed={1500}
+            gyroscope={true}
+            glareEnable={!true}
+            glareMaxOpacity={0.1}
+            glareColor="purple"
+            glarePosition="all"
+          >
             <img
-              className="bite h-96 rounded w-fit mb-6 "
+              className="bite h-96 rounded w-fit -mt-12 mr-24"
               src={creepyComp}
               alt="content"
             />
-          
-        </Tilt>
+          </Tilt>
         </div>
       </Fade>
     </div>

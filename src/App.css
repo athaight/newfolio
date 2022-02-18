@@ -116,6 +116,10 @@ body {
   z-index: 10;
 }
 
+#work{
+height: 800px;
+}
+
 .works {
 height: 600px;
 }
